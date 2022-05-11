@@ -96,13 +96,14 @@ li:hover {
   text-decoration-thickness: 1px;
 }
 
-z .nav {
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   font-weight: 300;
   display: flex;
   max-width: 100%;
   width: 100%;
-  align-items: center;
-  justify-content: space-between;
 }
 
 .nav a {

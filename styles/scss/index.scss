@@ -27,12 +27,13 @@ z
 
 // navbar 
 .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   font-weight: $skinnyfont;
   display: flex;
   max-width: 100%;
   width: 100%;
-  align-items: center;
-  justify-content: space-between;
 }
 
 .nav a {
