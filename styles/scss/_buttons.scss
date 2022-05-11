@@ -1,0 +1,18 @@
+.btn_guias {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.btn_ver_guias {
+  font-weight: $skinnyfont;
+  border: none;
+  padding: 10px 15px 10px 15px;
+  background-color: #232323;
+  color: #f5f5f5;
+  margin-bottom: 80px;
+}
+
+.btn_ver_guias:hover {
+  text-decoration: none;
+}

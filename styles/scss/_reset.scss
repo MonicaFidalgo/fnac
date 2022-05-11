@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+  //remove margin from all elements
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
